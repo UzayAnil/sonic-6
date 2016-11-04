@@ -14,6 +14,11 @@
 
 #character.right-right { background-position: -64px -64px; }
 #character.left-left { background-position: -64px -32px }
+#canvas {
+    background-image: url('greenhill.jpg');
+     background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #zone {
     background-image: url('greenhill.jpg');
@@ -22,11 +27,7 @@
     background-repeat: no-repeat;
     background-size: cover;
      width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-
-
+     position: relative;
 }
 /* #sign {
     right:
@@ -43,7 +44,10 @@
 
 
 #sign {
-
+position: absolute;
+right: 0;
+bottom: 39px;
+width: 100px;
 
 }
 
