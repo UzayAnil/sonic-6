@@ -1,0 +1,50 @@
+#character {
+        position: absolute;
+        top: 67%;
+        left: 5%;
+        width: 30px;
+        height: 30px;
+        background-image: url('sonic.png');
+        background-repeat: no-repeat;
+        padding-bottom: 20px;
+
+
+
+}
+
+#character.right-right { background-position: -64px -64px; }
+#character.left-left { background-position: -64px -32px }
+
+#zone {
+    background-image: url('greenhill.jpg');
+    background-size: 100vw 100vh;
+    height: 40em;
+    background-repeat: no-repeat;
+    background-size: cover;
+     width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+}
+/* #sign {
+    right:
+
+} */
+
+#game-path {
+      bottom: 70%;
+}
+
+#location1 {
+    bottom: 70%;
+}
+
+
+#sign {
+
+
+}
+
+
